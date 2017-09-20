@@ -1,0 +1,17 @@
+@import "./shared.scss";
+
+.home__content h2,
+.home__content h3{
+  color: $dm-main-color;
+}
+
+.home__content--dark h2,
+.home__content--dark h3{
+  color: $gold;
+}
+
+.home__content h3,
+.home__content--dark h3{
+  width: 7rem;
+  margin: 0.5rem auto;
+}

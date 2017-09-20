@@ -1,0 +1,26 @@
+@import "./shaed.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.menu-item{
+  color: rgba(225, 246, 255, 0.45);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.6em 0;
+  border-bottom: 1px solid purple;
+  text-align: center;
+}
+
+.menu-item:hover{
+  color: rgba(225, 246, 255, 0.75);
+}
+
+.gallery img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
