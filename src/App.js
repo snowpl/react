@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/*import React, { Component } from 'react';
 import logo from './icons/logo.svg';
 import './styles/App.css';
 import styled from 'styled-components';
@@ -156,3 +156,4 @@ return    <div>
 }
 
 export default App;
+*/
