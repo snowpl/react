@@ -1,6 +1,7 @@
 $gold: #a08946;
 $dm-main-color: #be2020;
 $dm-second-color: #2a6299;
+$dm-light-color: #898989;
 
 @mixin for-phone-only {
   @media (max-width: 599px) { @content; }
