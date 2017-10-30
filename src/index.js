@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import App from './App';
-import Menu from './nav';
+//import App from './App';
+//import Menu from './nav';
 import NightMode from './nightMode';
 import registerServiceWorker from './registerServiceWorker';
 import './styles/menu.css';

@@ -1,10 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export class Pane extends React.Component{
-  constructor(){
-    super();
-  }
-
   render(){
     return(
         this.props.children
@@ -85,16 +82,16 @@ export class Tabs extends React.Component{
 }
 
 Tabs.propTypes = {
-    selected: React.PropTypes.number,
-    children: React.PropTypes.oneOfType([
-      React.PropTypes.array,
-      React.PropTypes.element
+    selected: PropTypes.number,
+    children: PropTypes.oneOfType([
+      PropTypes.array,
+      PropTypes.element
     ]).isRequired
   }
 
   Pane.propTypes = {
-    label: React.PropTypes.string.isRequired,
-    src: React.ProtoTypes,
-    link: React.ProtoTypes,
-    children: React.PropTypes.element.isRequired
+    label: PropTypes.string.isRequired,
+    src: PropTypes,
+    link: PropTypes,
+    children: PropTypes.element.isRequired
   }

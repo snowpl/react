@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Gallery from './photoComponent.js';
 
 const PorftolioImg = [
@@ -24,10 +24,6 @@ const PorftolioImg = [
 }]
 
 class Porftolio extends React.Component{
-  constructor(){
-    super();
-  }
-
   render(){
     return(
       <div>

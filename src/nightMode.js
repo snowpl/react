@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
+//import { render } from 'react-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import './styles/home-page.css';
 import BulbOn from './icons/light_on.svg';
@@ -8,7 +8,6 @@ import Gallery from './photoComponent.js';
 import Kacper from './img/me.jpg';
 import DickButt from './img/db.jpg';
 import {Tabs, Pane} from './tabs.js';
-import Face from './icons/face.svg';
 import Oferta from './offer.js';
 import Porftolio from './portfolio.js';
 import HomeIcon from './icons/menu/home.svg';
@@ -103,7 +102,7 @@ class NightMode extends Component {
     let blog = null;
     if (this.state.theme === 'dark') {
       btnm = <div className="bulb" onClick={this.changeTheme('light')}>
-      <img src={BulbOn}/>
+      <img src={BulbOn} alt='bulb-on'/>
       </div>;
       gallery = <Gallery images={IMAG1} galleryName='gallery'/>;
       homeGallery = <Gallery images={homePageGalNM} galleryName ='homeGallery'/>;
@@ -131,7 +130,7 @@ class NightMode extends Component {
       </Pane>;
     } else {
       btnm = <div className="bulb" onClick={this.changeTheme('dark')}>
-      <img src={BulbOff}/>
+      <img src={BulbOff} alt='bulb-off'/>
       </div>;
       gallery = <Gallery images={IMAG2} galleryName='gallery'/>;
       homeGallery = <Gallery images={homePageGal} galleryName ='homeGallery'/>;

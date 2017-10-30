@@ -51,14 +51,12 @@ const workProcess =
   text: 'deployment', id: '7'}]
 
 class Offer extends Component{
-  constructor(){
-    super();
-
-  }
-
   renderOfferDescription(){
 return(
-  <div>Offer</div>
+  <div>
+  <div>{oferta}</div>
+  <div>{uslugi}</div>
+  </div>
 )
   }
 

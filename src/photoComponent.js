@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Gallery extends Component{
-  constructor(){
-    super();
-
-  }
 
   renderImage(image){
     return(
@@ -27,15 +24,15 @@ class Gallery extends Component{
 }
 
   Gallery.propTypes = {
-    images: React.PropTypes.arrayOf(React.PropTypes.shape({
-          src : React.PropTypes.string,
-          alt: React.PropTypes.string,
-          text: React.PropTypes.string,
-          id: React.PropTypes.number,
-          href: React.PropTypes.string,
-          header: React.PropTypes.string
+    images: PropTypes.arrayOf(PropTypes.shape({
+          src : PropTypes.string,
+          alt: PropTypes.string,
+          text: PropTypes.string,
+          id: PropTypes.number,
+          href: PropTypes.string,
+          header: PropTypes.string
         })),
-    galleryName: React.PropTypes.string
+    galleryName: PropTypes.string
 };
 
 export default Gallery;
