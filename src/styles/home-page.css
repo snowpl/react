@@ -10,3 +10,6 @@
 .home__content--dark h3 {
   width: 7rem;
   margin: 0.5rem auto; }
+
+.home__content--dark span {
+  color: #898989; }

@@ -43,12 +43,11 @@
 .tabs__labels.home li a:hover .tabs__labels--text {
   display: inline-block;
   background: rgba(20, 20, 20, 0.5);
-  padding: 10px 20px;
+  padding: 0.6rem;
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 1.5rem;
   transform: translate(-50%, -50%); }
 
 .tabs__labels.home li a:hover img {
@@ -57,7 +56,7 @@
 .tabs__labels.home .tabs__labels--text {
   display: inline-block;
   background: rgba(20, 20, 20, 0);
-  padding: 10px 20px;
+  padding: 7px;
   margin: 0;
   position: absolute;
   top: 80%;
@@ -132,14 +131,17 @@
   display: inline-block;
   height: 100%;
   text-align: center;
-  padding-top: 4rem;
-  /*background: #2c3e50;*/ }
+  padding: 4rem 0rem;
+  list-style: none; }
 
 .tabs__labels li figure a {
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
   color: white; }
+
+.tabs__labels--text {
+  color: #be2020; }
 
 .svg-hov {
   transition: 1s; }

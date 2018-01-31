@@ -13,3 +13,4 @@ ReactDOM.render(<NightMode />, document.getElementById('nightMode'));
 /*ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<Menu />, document.getElementById('navbar'));*/
 registerServiceWorker();
+module.hot.accept();
